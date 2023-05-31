@@ -1,0 +1,486 @@
+CRITICAL - 2023-05-29 11:14:11 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:14:16 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:14:38 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:14:43 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:14:51 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:14:55 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:14:55 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:15:00 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:15:01 --> syntax error, unexpected identifier "is"
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:15:37 --> Invalid file: "test.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('test', 'blog')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:16:14 --> Invalid file: "test.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('test', 'blog-input')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:16:20 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:16:32 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:16:42 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:16:49 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:17:24 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:17:32 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:17:40 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:18:33 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:18:41 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:18:49 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:19:37 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:19:49 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:19:56 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:20:12 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:20:19 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:20:29 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:32:59 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:33:15 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:34:04 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:34:08 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:34:46 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:34:56 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:35:58 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:36:23 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:36:43 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:37:25 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:37:32 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:39:46 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:39:52 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:40:06 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:40:10 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:40:34 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:40:57 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:41:58 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:42:11 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:42:20 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:42:37 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:43:52 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:44:03 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:44:19 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:47:36 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:48:03 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:48:34 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:49:27 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:49:48 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 11:52:29 --> Invalid file: "assets.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('assets.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('assets', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('assets')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->showPages('assets', 'js', 'plyr.min.js.map')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
