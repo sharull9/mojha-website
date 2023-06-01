@@ -253,7 +253,12 @@
                       >
                         <img
                           class="rounded card"
-                          style="object-fit: fill; aspect-ratio: 16 / 9"
+                          style="
+                            object-fit: fill;
+                            aspect-ratio: 16 / 9;
+                            width: 80%;
+                            margin-top: 30px;
+                          "
                           src="/image-web.png"
                           alt=""
                         />

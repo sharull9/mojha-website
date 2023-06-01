@@ -150,30 +150,7 @@
     }
   }
 </script>
-<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 
-
-
-<script>
-  var toolbarOptions = [
-    ['bold', 'italic', 'underline', 'strike', 'link','blockquote', 'code-block'],
-    [{ 'header': [1, 2, 3, 4, 5, 6, false] },{ 'font': [] }],
-    [{ 'list': 'ordered'}, { 'list': 'bullet' },{ 'script': 'sub'}, { 'script': 'super' },{ 'indent': '-1'}, { 'indent': '+1' },{ 'align': [] }],
-    [{ 'direction': 'rtl' }, 'clean'],
-    [{ 'color': [] }, { 'background': [] }], 
-    [{ 'image': '' },{ 'video': '' }] ];
-var options = {
-  debug: 'info',
-  modules: {
-    toolbar: toolbarOptions
-  },
-  placeholder: 'Write Blog content here...',
-  theme: 'snow'
-};
-
-
-  var quill = new Quill('#blogContent', options);
-</script>
 
   </body>
 </html>

@@ -32,7 +32,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link
+      href="https://cdn.quilljs.com/1.3.6/quill.snow.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="bg-soft-primary">
@@ -72,13 +75,13 @@
                 <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Free tools</a>
+                      <a class="nav-link" href="/free-tools">Free tools</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/test/pricing">Pricing</a>
+                      <a class="nav-link" href="/pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
+                      <a class="nav-link" href="/blog">Blog</a>
                     </li>
                   </ul>
                   <!-- /.navbar-nav -->
@@ -106,10 +109,8 @@
                 <ul class="navbar-nav flex-row align-items-center ms-auto">
                   <li class="nav-item d-block d-md-block">
                     <a
-                      href="#"
+                      href="/signin"
                       class="btn btn-sm btn-primary rounded-pill"
-                      data-bs-toggle="modal"
-                      data-bs-target="trueLink"
                       >Sign In</a
                     >
                   </li>
