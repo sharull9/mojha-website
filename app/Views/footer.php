@@ -149,6 +149,10 @@
       }
     }
   }
+
+  function copy(e, id){
+    
+  }
 </script>
 
 

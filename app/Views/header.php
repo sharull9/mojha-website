@@ -132,6 +132,3 @@
         <!--/.modal -->
         <!-- /.offcanvas -->
       </header>
-    </div>
-  </body>
-</html>

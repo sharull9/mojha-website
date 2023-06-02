@@ -26,39 +26,37 @@
     >
       <div class="widget">
         <nav id="sidebar-nav">
-          <ul class="list-unstyled text-reset">
+          <ul class="list-unstyled text-reset ms-4" style="list-style: decimal">
             <li>
               <a class="nav-link scroll active" href="#privacy-policy"
-                >1. Privacy Policy</a
+                >Privacy Policy</a
               >
             </li>
             <li>
               <a class="nav-link scroll" href="#information-collection"
-                >2. Information Collection and Use</a
+                >Information Collection and Use</a
               >
             </li>
             <li>
               <a class="nav-link scroll" href="#information-sharing"
-                >3. Information Sharing and Disclosure</a
+                >Information Sharing and Disclosure</a
               >
             </li>
             <li>
-              <a class="nav-link scroll" href="#data-security"
-                >4. Data Security</a
-              >
+              <a class="nav-link scroll" href="#data-security">Data Security</a>
             </li>
             <li>
               <a class="nav-link scroll" href="#cookies"
-                >5. Cookies and Tracking Technologies</a
+                >Cookies and Tracking Technologies</a
               >
             </li>
             <li>
               <a class="nav-link scroll" href="#changes"
-                >6. Changes to this Privacy Policy</a
+                >Changes to this Privacy Policy</a
               >
             </li>
             <li>
-              <a class="nav-link scroll" href="#contact">7. Contact Us</a>
+              <a class="nav-link scroll" href="#contact">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -67,7 +65,7 @@
       <!-- /.widget -->
     </aside>
     <!-- /column -->
-    <div class="col-xl-9 py-8">
+    <div class="col-xl-9 p-lg-8 pe-lg-0">
       <section id="privacy-policy" class="wrapper">
         <div class="card">
           <div class="card-body p-4 p-md-10">

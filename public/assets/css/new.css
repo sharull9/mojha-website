@@ -1,10 +1,11 @@
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 8px;
   height: 4px;
 }
 
 :root {
   --brand: #747ed1;
+  --redish: #e93264;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -251,10 +252,14 @@ tr > * {
   scale: 0.98;
 }
 .widgetList a:hover {
-  scale: 1.05;
+  scale: 1.01;
 }
 .badge {
   font-size: 14px !important;
+}
+
+.widgetList .material-symbols-outlined {
+  color: var(--redish);
 }
 
 @media (max-width: 400px) {

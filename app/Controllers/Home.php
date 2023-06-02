@@ -15,14 +15,12 @@ class Home extends BaseController
             echo view('header');
         } else if ($filePath == 'footer') {
             echo view('footer');
+        } else if ($filePath == 'api-docs') {
+            echo view('api-docs');
         } else {
             echo view('header');
             echo view($filePath);
             echo view('footer');
         }
-
-
-
-
     }
 }

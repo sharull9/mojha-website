@@ -270,24 +270,6 @@
             <option value="google-image">Naver</option>
             <option value="google-image">MSN PicSearch</option>
           </select>
-
-          <script>
-            function addRobot() {
-              let robot = document.getElementById("robot").value;
-              let permission = document.getElementById("permission").value;
-              let container = document.getElementById("bot-list");
-              console.log(robot, permission);
-              let div = document.createElement("div");
-              div.classList.add("d-flex");
-              let child1 = document.createElement("div");
-              child1.innerText = robot + " - ";
-              let child2 = document.createElement("div");
-              child2.innerText = permission;
-              div.appendChild(child1);
-              div.appendChild(child2);
-              container.appendChild(div);
-            }
-          </script>
         </div>
         <div class="form-select-wrapper">
           <select
@@ -419,3 +401,21 @@
     </div>
   </div>
 </section>
+
+<script>
+  function addRobot() {
+    let robot = document.getElementById("robot").value;
+    let permission = document.getElementById("permission").value;
+    let container = document.getElementById("bot-list");
+    console.log(robot, permission);
+    let div = document.createElement("div");
+    div.classList.add("d-flex");
+    let child1 = document.createElement("div");
+    child1.innerText = robot + " - ";
+    let child2 = document.createElement("div");
+    child2.innerText = permission;
+    div.appendChild(child1);
+    div.appendChild(child2);
+    container.appendChild(div);
+  }
+</script>
