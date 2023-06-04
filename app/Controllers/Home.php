@@ -15,8 +15,8 @@ class Home extends BaseController
             echo view('header');
         } else if ($filePath == 'footer') {
             echo view('footer');
-        } else if ($filePath == 'api-docs') {
-            echo view('api-docs');
+        } else if ($filePath == 'api-docs' || $filePath == 'playgroundApi') {
+            echo view($filePath);
         } else {
             echo view('header');
             echo view($filePath);

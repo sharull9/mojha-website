@@ -150,9 +150,26 @@
     }
   }
 
-  function copy(e, id){
-    
-  }
+  function copy(e, id) {
+        const item = document.getElementById(id);
+        const icon = e.target;
+        if (navigator.clipboard) {
+          icon.classList.add("text-success");
+          icon.innerText = "check_circle";
+          navigator.clipboard.writeText(item.value);
+          item.select();
+        } else {
+          alert("Your browser does not support copying!");
+        }
+        console.log(e.target);
+        const back = () => {
+          icon.innerText = "content_copy";
+          icon.classList.remove("text-success");
+        };
+        setTimeout(function () {
+          back();
+        }, 1000);
+      }
 </script>
 
 

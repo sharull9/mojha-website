@@ -33,12 +33,19 @@
           to view the calendar at different times. You can use the embed code in
           your WordPress sidebar widget easily.
         </p>
+        <p>
+          The Calendar widget is a free widget that you can embed into your
+          website and blog. You can customise the colour and fonts of this
+          calendar widget. You can change the month and year from the dropdown
+          to view the calendar at different times. You can use the embed code in
+          your WordPress sidebar widget easily.
+        </p>
         <div>
           <h2>Embed Code</h2>
           <div class="position-relative">
             <div
               class="position-absolute copyToClipboard"
-              style="top: 10px; right: 20px; z-index: 10"
+              style="top: 10px; right: 10px; z-index: 10"
               onclick="copy(event, 'embedCode')"
             >
               <span class="material-symbols-outlined text-brand">
@@ -59,6 +66,9 @@
             </div>
             <!-- /.form-floating -->
           </div>
+        </div>
+        <div>
+          <a class="btn btn-primary" href="/widgets/edit">Edit Widget</a>
         </div>
       </div>
     </div>

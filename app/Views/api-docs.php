@@ -62,9 +62,9 @@
     </style>
   </head>
 
-  <body class="bg-soft-primary">
+  <body class="">
     <div class="">
-      <header class="bg-soft-primary" style="padding-bottom: 17px">
+      <header class="" style="padding-bottom: 17px">
         <nav class="navbar navbar-expand-lg fancy navbar-light navbar-bg-light">
           <div class="w-100 mx-2">
             <div
@@ -156,9 +156,8 @@
         <!--/.modal -->
         <!-- /.offcanvas -->
       </header>
-
       <section class="mx-2 grid mb-5">
-        <aside class="position-relative">
+        <aside class="position-relative border-end">
           <div class="docs-sidebar d-none d-md-block position-sticky top-0">
             <div
               class="accordion accordion-wrapper"
@@ -167,21 +166,20 @@
               <div class="card plain accordion-item">
                 <div class="card-header" id="headingSimpleOne">
                   <button
-                    class="accordion-button"
+                    class="collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseSimpleOne"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapseSimpleOne"
                   >
-                    Professional Design
+                    Top-Notch Support
                   </button>
                 </div>
                 <!--/.card-header -->
                 <div
                   id="collapseSimpleOne"
-                  class="accordion-collapse collapse show"
+                  class="accordion-collapse collapse"
                   aria-labelledby="headingSimpleOne"
-                  data-bs-parent="#accordionSimpleExample"
                 >
                   <div class="card-body">
                     <p>
@@ -213,7 +211,6 @@
                   id="collapseSimpleTwo"
                   class="accordion-collapse collapse"
                   aria-labelledby="headingSimpleTwo"
-                  data-bs-parent="#accordionSimpleExample"
                 >
                   <div class="card-body">
                     <p>
@@ -245,7 +242,6 @@
                   id="collapseSimpleThree"
                   class="accordion-collapse collapse"
                   aria-labelledby="headingSimpleThree"
-                  data-bs-parent="#accordionSimpleExample"
                 >
                   <div class="card-body">
                     <p>
@@ -292,7 +288,6 @@
                   id="collapseSimpleOne"
                   class="accordion-collapse collapse"
                   aria-labelledby="headingSimpleOne"
-                  data-bs-parent="#accordionSimpleExample"
                 >
                   <div class="card plain accordion-item">
                     <div class="card-header p-0" id="headingSimpleTwo">
@@ -311,7 +306,6 @@
                       id="collapseSimpleTwo"
                       class="accordion-collapse collapse"
                       aria-labelledby="headingSimpleTwo"
-                      data-bs-parent="#accordionSimpleExample"
                     >
                       <div class="card-body">
                         <p>
@@ -342,7 +336,6 @@
                       id="collapseSimpleThree"
                       class="accordion-collapse collapse"
                       aria-labelledby="headingSimpleThree"
-                      data-bs-parent="#accordionSimpleExample"
                     >
                       <div class="card-body">
                         <p>
@@ -365,8 +358,7 @@
             <!--/.accordion -->
           </div>
         </aside>
-
-        <div class="card p-5">
+        <div class="p-5">
           <article class="docs-article docs-prose">
             <header>
               <h1 class="docs-article__title">How to Use Our REST APIs</h1>
@@ -416,6 +408,7 @@
                 </p>
               </div>
             </section>
+            <hr class="my-4" />
             <section>
               <h2
                 class="docs-article__section-title"
@@ -519,8 +512,8 @@
                   tabindex="0"
                 ><code class="language-text">https://username:password@api.twilio.com/2010-04-01/your_desired_path<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
                 <span class="clipboard"
-                  ><span class="clipboard-label hidden"></span
-                  ><svg
+                  ><span class="clipboard-label hidden"></span>
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
@@ -530,8 +523,9 @@
                     <path
                       fill="currentColor"
                       d="M16 7v2h-5v2L8 8l3-3v2h5zM8 5H4v1h4V5zm-4 7h5v-1H4v1zm9-1h1v3H2V0h12v5h-1V3H3v10h10v-2zM3 2h10V1H3v1zm1 7v1h3V9H4zm0-1h3V7H4v1z"
-                    ></path></svg
-                ></span>
+                    ></path>
+                  </svg>
+                </span>
               </div>
               <p>
                 For HTTP Basic authentication, you will use your Twilio account
@@ -555,8 +549,9 @@
                     <path
                       fill="currentColor"
                       d="M16 7v2h-5v2L8 8l3-3v2h5zM8 5H4v1h4V5zm-4 7h5v-1H4v1zm9-1h1v3H2V0h12v5h-1V3H3v10h10v-2zM3 2h10V1H3v1zm1 7v1h3V9H4zm0-1h3V7H4v1z"
-                    ></path></svg
-                ></span>
+                    ></path>
+                  </svg>
+                </span>
               </div>
               <p>
                 You can find both your account SID and auth token in the
@@ -587,7 +582,7 @@
               <figure class="figure-richtext-image figure-full-width">
                 <img
                   alt="Reveal Your Auth Token"
-                  class="richtext-image full-width"
+                  class="richtext-image w-50"
                   height="117"
                   sizes="463px"
                   src="https://assets.cdn.prod.twilio.com/images/account_sid_auth_token.width-800.png"
@@ -628,8 +623,9 @@
                     <path
                       fill="currentColor"
                       d="M16 7v2h-5v2L8 8l3-3v2h5zM8 5H4v1h4V5zm-4 7h5v-1H4v1zm9-1h1v3H2V0h12v5h-1V3H3v10h10v-2zM3 2h10V1H3v1zm1 7v1h3V9H4zm0-1h3V7H4v1z"
-                    ></path></svg
-                ></span>
+                    ></path>
+                  </svg>
+                </span>
               </div>
               <p>
                 The API key type has to be created as
@@ -658,8 +654,9 @@
                     <path
                       fill="currentColor"
                       d="M16 7v2h-5v2L8 8l3-3v2h5zM8 5H4v1h4V5zm-4 7h5v-1H4v1zm9-1h1v3H2V0h12v5h-1V3H3v10h10v-2zM3 2h10V1H3v1zm1 7v1h3V9H4zm0-1h3V7H4v1z"
-                    ></path></svg
-                ></span>
+                    ></path>
+                  </svg>
+                </span>
               </div>
               <p>
                 Twilio will
@@ -798,9 +795,8 @@
           </article>
         </div>
       </section>
-
       <footer class="bg-navy text-inverse">
-        <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+        <div class="mx-2 pt-15 pt-md-17 pb-13 pb-md-15">
           <div class="d-lg-flex flex-row align-items-lg-center">
             <h3
               class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white"
@@ -1107,6 +1103,5 @@
         }
       }
     </script>
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   </body>
 </html>
