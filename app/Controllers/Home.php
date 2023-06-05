@@ -11,11 +11,9 @@ class Home extends BaseController
 
     public function showPages($filePath)
     {
-        if ($filePath == 'header') {
-            echo view('header');
-        } else if ($filePath == 'footer') {
-            echo view('footer');
-        } else if ($filePath == 'api-docs' || $filePath == 'playgroundApi') {
+        if ($filePath == 'header' ||  $filePath == 'footer') {
+            echo view('404');
+        } else if ($filePath == 'api-docs' || $filePath == 'playgroundApi' || $filePath == 'chat' || $filePath == 'calendar' || $filePath == 'edit') {
             echo view($filePath);
         } else {
             echo view('header');

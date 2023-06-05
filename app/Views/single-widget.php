@@ -16,13 +16,18 @@
     <div class="d-flex">
       <div class="col-md-6">
         <iframe
-          src="https://mojha.com/widget/calendar"
+          src="http://localhost/calendar"
           scrolling="no"
           width="100%"
           height="620"
           frameborder="0"
           style="max-width: 500px"
+          id="output"
         ></iframe>
+        <div>
+          <button id="dark_variant">Dark Mode</button>
+          <button id="pic_variant">with Picture</button>
+        </div>
       </div>
       <div class="col-md-6 p-3">
         <h2>Calendar Widget</h2>
@@ -60,7 +65,7 @@
                 style="height: 105px"
                 disabled
               >
-<div align="center"><iframe src="https://mojha.com/widget/calendar" scrolling="no" width="100%" height="620" frameborder="0" style="max-width:500px;"></iframe></div></textarea
+<div align="center"><iframe src="http://localhost/calendar" scrolling="no" width="100%" height="620" frameborder="0"></iframe></div></textarea
               >
               <label for="textareaExample">Code</label>
             </div>
@@ -68,9 +73,38 @@
           </div>
         </div>
         <div>
-          <a class="btn btn-primary" href="/widgets/edit">Edit Widget</a>
+          <a class="btn btn-primary" href="/edit">customise</a>
+          <button
+            class="btn btn-primary material-symbols-outlined text-white"
+            onclick="copy(event, 'embedCode')"
+          >
+            content_copy
+          </button>
         </div>
       </div>
     </div>
   </div>
 </section>
+<script>
+  document.getElementById("pic_variant").addEventListener("click", function () {
+    document
+      .getElementById("output")
+      .setAttribute(
+        "src",
+        "http://localhost/calendar?bgColor=080625&currentDay=dfdfdf&pastDay=999999&text=ffffff&bgImage=https://images.unsplash.com/photo-1685728399140-5650bbcfc015?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+      );
+    document.getElementById(
+      "embedCode"
+    ).innerText = `<div align="center"><iframe src="http://localhost/calendar?bgColor=080625&currentDay=dfdfdf&pastDay=999999&text=ffffff&bgImage=https://images.unsplash.com/photo-1685728399140-5650bbcfc015?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" scrolling="no" width="100%" height="620" frameborder="0"></iframe></div>`;
+  });
+  document
+    .getElementById("dark_variant")
+    .addEventListener("click", function () {
+      document
+        .getElementById("output")
+        .setAttribute("src", "http://localhost/calendar");
+      document.getElementById(
+        "embedCode"
+      ).innerText = `<div align="center"><iframe src="http://localhost/calendar" scrolling="no" width="100%" height="620" frameborder="0"></iframe></div>`;
+    });
+</script>
